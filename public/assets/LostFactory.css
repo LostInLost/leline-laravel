@@ -1,0 +1,68 @@
+.form-center {
+    margin: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.login-body {
+    background: -webkit-linear-gradient(to left bottom, #44a1d1, #0087cc, #006bc3, #004db6, #0a2ba1) !important;
+
+}
+.chk-penjual:hover {
+    cursor: pointer;
+}
+
+ion-icon {
+    font-size: 20px !important;
+}
+
+
+.card-realtime {
+    outline: 2px solid rgb(43, 107, 255);
+    z-index: 11213212;
+}
+
+
+.card-thing {
+    box-shadow: 0 4px 8px 0 rgba(58, 58, 58, 0.2);
+    transition: 0.3s;
+    max-width: 100%;
+    cursor: pointer;
+    color: black;
+}
+
+.card-title-thing {
+    overflow: hidden;
+    padding: 16px;
+    color: black !important;
+}
+
+.col-width {
+    width: 20%;
+}
+
+.card-thing:hover {
+    box-shadow: 8px 16px 16px 0 rgba(58, 58, 58, 0.2);
+}
+
+.navbar-dashboard {
+    background-color: #004db6 !important;
+}
+
+.success-none {
+    animation: fade-off 2000ms forwards;
+}
+
+@keyframes fade-off {
+    from {opacity: 100%; display: block;}
+    to {opacity: 0%; display: none !important;}
+}
+
+.card-group-width {
+    width: 64rem !important;
+}
+
+.notif-item {
+    color: white !important;
+    text-decoration: none;
+}
